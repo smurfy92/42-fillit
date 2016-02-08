@@ -60,12 +60,6 @@ void		ft_process(t_piece *lst)
 	tmp = lst;
 	map = ft_init_map(map, lst);
 	ft_clean_map(map);
-	if (!lst->next)
-	{
-		ft_put_piece(map, lst, 0, 0);
-		ft_save(map);
-		ft_print_best_map(map);
-	}
 	ft_fillit(map);
 }
 

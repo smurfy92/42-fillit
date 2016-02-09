@@ -6,14 +6,14 @@
 /*   By: jtranchi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/15 18:16:19 by jtranchi          #+#    #+#             */
-/*   Updated: 2015/12/15 18:16:21 by jtranchi         ###   ########.fr       */
+/*   Updated: 2016/02/09 18:10:42 by jtranchi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FILLIT_H
 # define FILLIT_H
 
-# include "libft/libft.h"
+# include "libft/includes/libft.h"
 # include <fcntl.h>
 
 typedef struct		s_piece

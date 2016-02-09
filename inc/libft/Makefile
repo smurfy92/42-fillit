@@ -68,7 +68,8 @@ SRC= ft_memset.c\
 	 ft_lstdelone.c\
 	 ft_lstdel.c\
 	 ft_lstadd.c\
-	 ft_lstiter.c
+	 ft_lstiter.c\
+	 ft_lstmap.c
 	 
 LIB = libft.a
 CC = gcc
@@ -88,14 +89,12 @@ $(LIB): start $(OBJ)
 	@echo "$(CY)[LIBFT] :$(CE) $(CG)Creating Library$(CE)";
 	@$(AR) $(LIB) $(OBJ)
 	@echo "$(CY)[LIBFT] :$(CE) $(CG)Indexing Library$(CE)";
-	@$(AR) $(LIB) $(OBJ)
 	@$(RANLIB) $(LIB)
 
 nohd: $(OBJ)
 	@echo "$(CY)[LIBFT] :$(CE) $(CG)Creating Library$(CE)";
 	@$(AR) $(LIB) $(OBJ)
 	@echo "$(CY)[LIBFT] :$(CE) $(CG)Indexing Library$(CE)";
-	@$(AR) $(LIB) $(OBJ)
 	@$(RANLIB) $(LIB)
 
 nohdclean:
